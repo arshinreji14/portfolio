@@ -58,10 +58,11 @@ const About = () => {
                 <span className="">Quick Learner</span>
               </li>
               <li>
-                <span className="">Theam Player</span>
+                <span className="">Team Player</span>
               </li>
               <li>
-                <span className="">Problem Solver</span>
+                <span className="">Problem Solver
+                </span>
               </li>
               <li>
                 <span className="">Communication</span>
