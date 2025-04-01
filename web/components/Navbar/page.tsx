@@ -14,13 +14,14 @@ const Navbar = () => {
      
       </div>
       <div className='col-span-1 flex justify-end pr-10 items-center '>
-      <Link
-  className=" text-sm px-2 py-1 md:text-lg md:px-5 md:py-4 text-white border-2 border-white rounded-md hover:bg-white hover:text-black transition duration-300"
+      <a
+  className=" text-sm px-2 py-2 md:text-lg md:px-5 md:py-4 text-white border-2 border-white rounded-md hover:bg-white hover:text-black transition duration-300"
   href="/Arshinreji.pdf"
-  download
+  rel="noopener noreferrer"
+  download="Arshinreji.pdf"
 >
   📄 Download CV
-</Link>
+</a>
       </div>
     </nav>
   )
