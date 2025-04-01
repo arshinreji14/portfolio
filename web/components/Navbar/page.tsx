@@ -16,9 +16,8 @@ const Navbar = () => {
       <div className='col-span-1 flex justify-end pr-10 items-center '>
       <a
   className=" text-sm px-2 py-2 md:text-lg md:px-5 md:py-4 text-white border-2 border-white rounded-md hover:bg-white hover:text-black transition duration-300"
-  href="/Arshinreji.pdf"
-  rel="noopener noreferrer"
-  download="Arshinreji.pdf"
+  href="/ArshinReji.pdf"
+  download="ArshinReji.pdf"
 >
   📄 Download CV
 </a>
